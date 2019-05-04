@@ -1,0 +1,23 @@
+ 2004  mkdir Ch7ex3
+ 2005  cd Ch7ex3
+ 2006  ls ../w1
+ 2007  cp ../w1/pom.xml .
+ 2008  tree ../w1/src
+ 2009  pwd
+ 2010  ls `cat /tmp/x`
+ 2011  ls `cat /tmp/x`/src
+ 2012  ls `cat /tmp/x`/src/java
+ 2013  mkdir -p src/main/java
+ 2014  ls `cat /tmp/x`/src/java/murach
+ 2015  cp -r `cat /tmp/x`/src/java/murach src/main/java/
+ 2016  ls `cat /tmp/x`/src/
+ 2017  ls `cat /tmp/x`/src/conf
+ 2018  ls `cat /tmp/x`
+ 2019  ls `cat /tmp/x`/web
+ 2020  mkdir -p src/main/webapp
+ 2021  ls `cat /tmp/x`/web/
+ 2022  Lsp -r `cat /tmp/x`/web/* src/main/webapp/
+ 2023  cp -r `cat /tmp/x`/web/* src/main/webapp/
+ 2024  tree src/
+ 2025  mvn instal
+ 2026  mvn install
